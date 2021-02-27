@@ -1,0 +1,129 @@
+body{
+margin: 0px;
+}
+
+header{
+    width: 1920px;
+    height: 1000px;
+    background-image: url(./Pictures/picture.png);
+}
+.banner{
+width: 1204px;
+height: 1000px;
+margin: 0 auto;
+}
+.mogo{
+    width: 93px;
+    height: 25px ;
+    color: white;
+margin: 0px;
+padding-top: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+.menu{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menuul{
+    display:flex;
+justify-content:space-between;
+list-style: none;
+width: 44%;
+}
+.litext{
+color: white;
+padding-top: 10px;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+.liicon img{
+width: 20px;
+height: 20px;
+padding-top: 10px;
+}
+.bannertext{
+height: 930px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.bannerh11{
+color: white;
+font-size: 72px;
+width: 1204px;
+height: 87px;
+margin: 0px;
+padding-top: 100px;
+font-family: 'Kaushan Script', cursive;
+text-align: center;
+}
+.bannerh12{
+width: 1204px;
+font-size: 150px;
+color: white;
+text-align: center;
+font-family: 'Montserrat', sans-serif;}
+.buttona{
+display: inline-block;
+border: 3px solid white;
+font-size: 20px;
+text-transform: uppercase;
+color: white;
+text-decoration: none;
+padding: 17px 43px;
+font-family: 'Montserrat', sans-serif;}
+.whatdowedo{
+width: 1204px;
+height: 750px;
+margin: 0px auto;
+}
+.wdwdtextpart{
+width: 1204px;
+height: 390px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.wdwdh11{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    width: 1204px;
+    color: black;
+    font-size:24;
+    margin: 0px;
+    padding-top: 100px;
+}
+.wdwdh12{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 1204px;
+    color: black;
+    font-size: 45px;
+}
+.miniborder1{
+width: 61px;
+height: 4px;
+border-bottom: 2px solid #F38181;
+}
+.wdwdp{
+    width: 954px;
+    font-size: 15px;
+    text-align: center;
+}
+.wdwdpicspart{
+ width: 1204px;
+ display: flex; 
+ flex-direction: row; 
+ justify-content: center;
+ padding: 150px;
+}
+
+.buttona:hover{
+    font-size: 16px;
+    color: red ;
+}
+
